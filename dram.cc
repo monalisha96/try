@@ -49,7 +49,7 @@ dram_t::dram_t( unsigned int partition_id, const struct memory_config *config, m
    m_stats = stats;
    m_config = config;
 
-   CCDc = 1;
+   CCDc = 0;
    RRDc = 0;
    RTWc = 0;
    WTRc = 0;
